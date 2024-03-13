@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Emotion Commotion</title>
+  <link href="stopwatch.css" rel="stylesheet" type="text/css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+<h1>Emotion Commotion</h1>
+
+<br><br>
+<h2>This stopwatch would help you while doing sports or meditation!</h2>
+
+<br><br>
+<!-- pages navigation -->
+
+<nav class="navigation">
+       
+    <a class="homepage" href="file:///E:/Applications/CS%20Club/final%20project.html">Home</a>
+    <a class="musicpage" target="_blank" href="file:///E:/Applications/CS%20Club/music.html">Music</a>
+    <a class="stopwatch" href="file:///E:/Applications/CS%20Club/stopwatch.html">Stopwatch</a>
+    <a href="file:///E:/Applications/CS%20Club/aboutus.html" target="_blank">About Us</a>
+    </nav>
+
+<div class="stopwatch">
+
+
+    <h3 id="displayTime">00:00:00</h3><br><br><br>
+     <span class="pause"><i class='bx bx-stop' onclick="watchStop()"></i></span>
+     <span class="play"><i class='bx bx-play' onclick="watchStart()"></i></span>
+     <span class="reset"> <i class='bx bx-reset' onclick="watchReset()"></i></span>
+
+   
+</div>
+
+<script src="stopwatch.js"></script>
+</body>
+</html>

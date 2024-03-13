@@ -1,0 +1,156 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+*{
+  margin: 0;
+padding: 0;
+}
+
+
+
+  body{
+    background-image: url("https://th.bing.com/th/id/OIP.Y9eiSWPUahxHA3lJ824ZZQAAAA?w=117&h=173&c=7&r=0&o=5&dpr=1.1&pid=1.7");
+  
+}
+  .intro{
+   padding-bottom: 11%;
+    background-image: url("https://images.pexels.com/photos/3780104/pexels-photo-3780104.png?auto=compress&cs=tinysrgb&w=1600");
+    background-size: cover;
+    
+    color: white;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+.navigation{
+ padding-top: 95px;
+  position: absolute;
+  font-size: 35px;
+  
+}
+
+div a{
+  
+  color: white;
+}
+
+div a:hover {
+  color:darkslateblue;
+}
+
+.homepage{
+padding-left: 20px;
+ 
+ display: inline;
+}
+
+.musicpage{
+  
+  padding-left: 30px;
+  display: inline;
+}
+.stopwatch{
+  padding-left: 30px;
+  display: inline;
+  font-size: 31px;
+}
+.aboutus{
+  padding-left: 30px;
+  display: inline;
+  font-size: 30px;
+}
+  h1{
+   padding-top: 35px;
+    padding-left: 20px;
+    font-size: 60px;
+    width: 70px;
+    
+  }
+  h2{
+    font-size: 40px;
+    width: 100;
+    padding-left: 4px;
+    
+  }
+  h3{
+    font-size: 34px;
+    width: 800px;
+    padding-left: 25px;
+    color: darkslateblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  p{
+    font-size: 24px;
+    width: 790px;
+    padding-left: 25px;
+    color: grey;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .mental{
+    padding-bottom: 60px;
+
+  }
+  
+  
+
+  nav{
+    float: right;
+    width: 130px;
+    background-image: url("https://th.bing.com/th/id/R.83588053cab5bebb5b47021e75d456fb?rik=pld7zEZHNv%2fnuQ&riu=http%3a%2f%2fwww.colorhexa.com%2f54598a.png&ehk=dnjsY9uZO4gJNB6DkotQqMSMl86C061T0hz0mTmx%2b00%3d&risl=&pid=ImgRaw&r=0");
+   padding-right: 270px;
+    border-radius:  6px;
+    margin-top: 40px;
+    margin-right: 50px;
+translate: y-axis: -6px;
+}
+
+.links{
+   
+    font-size: 22px;
+    padding-left: 10px;
+     width: 350px ;
+}
+
+h4{
+    color: white;
+    font-size: 28px;
+padding-left: 10px;
+width: 500px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:link {
+    color: white;
+  }
+  nav a:visited {
+    color: burlywood;
+  }
+nav a:hover {
+    color: yellowgreen;
+  }
+ nav a:active {
+    color: rgb(186, 186, 206);
+  }
+
+  .yoga{
+    float: right;
+    width: 340px;
+    margin-right: 50px;
+    border: darkslateblue 2px solid;
+    margin-bottom: 9px;
+    margin-top: 40px;
+  }
+
+  .depression{
+    width: 380px;
+    float: right;
+    margin-right: 50px;
+    border-radius: 8px;
+    border: 2px solid cadetblue;
+    margin-top: 45px;
+  }
+
+ 

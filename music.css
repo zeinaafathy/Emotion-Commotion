@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+*{
+margin: 0;   
+padding: 0;
+}
+
+
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.Y9eiSWPUahxHA3lJ824ZZQAAAA?w=117&h=173&c=7&r=0&o=5&dpr=1.1&pid=1.7");
+    background-size: cover;
+}
+
+.navigation{
+    float:right;
+    padding-top: 30px;
+font-size: 30px ;
+}
+
+.homepage{
+   padding-right: 15px;
+     display: inline;
+    }
+    .aboutus{
+        padding-right: 15px;
+        display: inline;
+    }
+    .musicpage{
+     padding-right: 15px;
+        display: inline;
+    }
+    .stopwatch{
+        padding-right: 15px;
+    }
+nav a{
+  
+     color:darkslateblue;
+  }
+  
+  nav a:hover {
+    color: #718355;
+  }
+
+.intro{
+   
+   
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 10px;
+}
+
+h1{
+    font-size: 80px;
+    color: #554881;
+    display: inline;
+}
+h2{
+    font-size: 30px;
+    padding-right: 10px;
+    color: #718355;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: #6D72C3;
+}
+audio::-webkit-media-controls-mute-button{
+    background-color: #E5D4ED;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+audio::-webkit-media-controls-play-button{
+    background-color: #E5D4ED;
+    border-radius: 50%;
+}
+
+audio::-webkit-media-controls-current-time-display{
+    margin-left: 30px;
+}
+
+audio::-webkit-media-controls-timeline{
+    margin-left: 30px;
+  
+}
+
+.player {
+    width: 60%;
+padding-left: 500px;
+}
+
+h3{
+    padding-top: 7px;
+    position: absolute;
+    font-size: 30px;
+    color: #718355;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+h4{
+color: #554881;
+font-size: 40px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding-left: 20px;
+}​
+
+.Hip{
+    padding-top: 30px;
+   
+}
+
+
+
+
+hr{
+    border: 2px  #554881 solid;
+}

@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+*{
+margin: 0;   
+padding: 0;
+}
+body{
+   background-color: #5941A9;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+h2{
+    color: white;
+    padding-left: 5px;
+}
+
+.navigation{
+   padding-left: 20px;
+    padding-top: 20px;
+font-size: 30px ;
+}
+
+.homepage{
+   padding-right: 15px;
+     display: inline;
+    }
+    
+    .musicpage{
+     padding-right: 15px;
+        display: inline;
+    }
+
+    .stopwatch{
+        padding-right: 15px;
+        display: inline;
+    }
+
+nav a{
+  
+     color:white;
+  }
+  
+  nav a:hover {
+    color: burlywood;
+  }
+
+
+
+h3{
+    font-size: 100px;
+    padding-left: 490px;
+    padding-top: 150px;
+    color: white;
+}
+
+div .pause{
+    color: white;
+    padding-left: 340px;
+    font-size: 100px;
+}
+div .play{
+    color: white;
+    font-size: 100px;
+    padding-left: 150px;
+
+}
+
+div .reset{
+    color: white;
+    font-size: 100px;
+
+    padding-left: 150px;
+}
+
+div .pause:hover{
+    cursor: pointer;
+    color: burlywood;
+}
+
+div .reset:hover{
+    cursor: pointer;
+    color: burlywood;
+}
+
+div .play:hover{
+    cursor: pointer;
+    color: burlywood;
+}
